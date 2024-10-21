@@ -16,4 +16,7 @@ class Solution:
             # 注意此时链表已经反转，要通过tmp而不是curr.next来更新curr
             prev = curr
             curr = tmp
+            # also available: cur.next, pre, cur = pre, cur, cur.next
         return prev
+
+
